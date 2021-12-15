@@ -6,17 +6,18 @@
 </a>
 # Overview
 
-This is a simple Contact Management web application that demonstrates the use of Python, Object oriented programming, Django framework, SQL and CRUD operations .
+This is a ASP.NET web API application that demonstrates the use of C#, Object oriented programming, ASP.NET Core 5 framework, SQL and CRUD operations .
 
 
-The application integrates a Python web application into an SQLIte DB in a way to demontrating basic CRUD (Create,Read,Update and Delete) operations.
+The application integrates an ASP.NET Core web API application into an SQL DB in a way to demontrating basic CRUD (Create,Read,Update and Delete) operations.
 To use this Application follow these step: 
 
 ```
-git clone https://github.com/nelson-ust/Contact-Manager-App-Django
-cd Contact-Manager-Django
-pip install -r requirements.txt
-python manage.py runserver
+git clone https://github.com/nelson-ust/ASPNetWebAPI
+cd ASPNetWebAPI/CRUDAspNetCore5WebAPI
+Double the CRUDAspNetCore5WebAPI.sln file to load the project in Visual Studio
+Change connection string in the appsettings.json file of the Web API project to suit your local credentials
+Click on the IIS Express
 ```
 
 ```
@@ -24,17 +25,13 @@ To Access the Admin Panel
 python manage.py createsuperuser
 ```
 ## Functionalities
-- [x] User Authentication
-- [x] Gender Based Search
-- [x] Database CRUD
-- [x] User Authorization
-- [x] Profile Image
+- [x] Database CRUD Operations
 
 [Software Demo Video](http://youtube.link.goes.here)
 
 # Development Environment
 
-1. Visual studio was the development tool used in developing this App. This is one of my favorites because by deafult it has all the tools needed in building a full fleshed application, without getting to start from the scratch 
+1. Visual studio 2017 was the development tool used in developing this App. This is one of my favorites because by deafult it has all the tools needed in building a full fleshed application, without getting to start from the scratch 
 2. The C# programming language with Dotnet core 5 was used to complete this project. It is has a large community, unique language and serves as a multi purpose language. I used the ASP.NET Core 5 web framework alongside SQL DB 
 3. I used GitHub for version control. 
 
