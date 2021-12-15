@@ -1,4 +1,4 @@
-<h1 align="center">Contact Manager App With Django</h1>
+<h1 align="center">ASP.NET CORE 5 Web API</h1>
 <a href="#">
   <div align="center">
     <img src="screenshot.png" width='700'/>
@@ -15,15 +15,11 @@ To use this Application follow these step:
 ```
 git clone https://github.com/nelson-ust/ASPNetWebAPI
 cd ASPNetWebAPI/CRUDAspNetCore5WebAPI
-Double the CRUDAspNetCore5WebAPI.sln file to load the project in Visual Studio
+Double the CRUDAspNetCore5WebAPI.sln file to load the project into Visual Studio
 Change connection string in the appsettings.json file of the Web API project to suit your local credentials
 Click on the IIS Express
 ```
 
-```
-To Access the Admin Panel
-python manage.py createsuperuser
-```
 ## Functionalities
 - [x] Database CRUD Operations
 
